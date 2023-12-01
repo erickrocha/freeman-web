@@ -1,0 +1,8 @@
+export const ENTRY_BEGIN = 'ENTRY_BEGIN';
+export const ENTRY_ERROR = 'ENTRY_ERROR';
+export const QUERY_ENTRY_SUCCESS = 'QUERY_ENTRY_SUCCESS';
+
+export const CHECK_BY_ID = 'CHECK_BY_ID';
+export const CHECK_BY_DATE = 'CHECK_BY_DATE';
+export const CHECK_BY_USER = 'CHECK_BY_USER';
+export const ENTRIES_APPROVED_SUCCESS = 'ENTRIES_APPROVED_SUCCESS';

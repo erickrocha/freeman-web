@@ -1,0 +1,39 @@
+@import "../../../assets/scss/colors";
+
+.AmountPerDayViewer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .Card-Day {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    margin: 0.2%;
+    min-width: 13%;
+
+    .Card-Day-Header {
+      background-color: #EEE9E9;
+      width: 100%;
+      padding: 1%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .Card-Day-Body {
+      color: $gray;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 2%;
+    }
+  }
+}

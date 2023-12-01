@@ -1,0 +1,3 @@
+export const ORDER_BEGIN = 'ORDER_BEGIN';
+export const ORDER_ERROR = 'ORDER_ERROR';
+export const QUERY_ORDERS_SUCCESS = 'QUERY_ORDERS_SUCCESS'; 

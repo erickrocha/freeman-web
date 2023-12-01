@@ -1,0 +1,40 @@
+@import '../../../assets/scss/definitions';
+
+.Account {
+  padding: $body_default_padding;
+
+  .Account-Breadcrumb {
+    padding-right: 2%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Account-Body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    border: $default-border;
+
+    .Account-box {
+      display: flex;
+      flex-direction: row;
+
+      .Account-Profile {
+        padding: $body_default_padding;
+        background-color: $white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+      }
+    }
+
+    .Account-Actions {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      padding: 1%;
+    }
+  }
+}
